@@ -10,6 +10,7 @@ public class BankAccount {
 
     public static double rate = 0.05;
 
+    // Usar this para referirse a los atributos de la clase.
     public BankAccount(int accountNumber, double balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
