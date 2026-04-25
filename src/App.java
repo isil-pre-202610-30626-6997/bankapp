@@ -10,5 +10,8 @@ public class App {
 
         bankAccount01.deposit(400);
         bankAccount01.showDetails();
+
+        BankAccount bankAccount02 = new BankAccount(1002);
+        bankAccount02.showDetails();
     }
 }

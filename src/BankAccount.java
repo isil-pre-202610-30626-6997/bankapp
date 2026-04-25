@@ -15,6 +15,11 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public BankAccount(int accountNumber){
+        this.accountNumber = accountNumber;
+        balance = 0;
+    }
+
     public void deposit(double amount) {
         balance += amount;
     }
